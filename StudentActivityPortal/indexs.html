@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Campus Connect</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>🎓 Campus Connect</h1>
+<p>Dream • Explore • Achieve</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#events">Events</a>
+<a href="#join">Register</a>
+</nav>
+
+<main id="home">
+
+<section id="events">
+<h2>🌈 Explore Our Events</h2>
+
+<div class="cards">
+<article class="tech">
+<h3>💻 Tech Fest</h3>
+<p>Discover technology and innovation!</p>
+</article>
+
+<article class="sports">
+<h3>🏆 Sports Day</h3>
+<p>Show your talent and energy!</p>
+</article>
+
+<article class="art">
+<h3>🎨 Art Club</h3>
+<p>Express your creativity!</p>
+</article>
+</div>
+</section>
+
+<aside>
+<h3>📢 Notice Board</h3>
+<p>✨ Registrations are now OPEN!</p>
+</aside>
+
+<section id="join">
+<h2>📝 Join Our Club</h2>
+
+<form id="form">
+
+<label for="name">Student Name</label>
+<input id="name" type="text" required>
+
+<label for="email">Email</label>
+<input id="email" type="email" required>
+
+<label for="branch">Department</label>
+<select id="branch">
+<option>CSE</option>
+<option>ECE</option>
+<option>EEE</option>
+</select>
+
+<fieldset>
+<legend>Year</legend>
+<input type="radio" name="year" id="first" required>
+<label for="first">First Year</label>
+<input type="radio" name="year" id="second">
+<label for="second">Second Year</label>
+</fieldset>
+
+<fieldset>
+<legend>Interests</legend>
+<input type="checkbox" id="coding">
+<label for="coding">Coding</label>
+<input type="checkbox" id="sports">
+<label for="sports">Sports</label>
+</fieldset>
+
+<label for="msg">Your Message</label>
+<textarea id="msg"></textarea>
+
+<button type="submit">🚀 Register Now</button>
+<p id="result" role="status" aria-live="polite"></p>
+
+</form>
+</section>
+</main>
+
+<footer>
+<p>💜 © 2026 Campus Connect</p>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>

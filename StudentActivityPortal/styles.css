@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f0ff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #7138b5, #ed65a5);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+nav {
+    background: #39216b;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+main {
+    width: 85%;
+    margin: 25px auto;
+}
+
+section, aside {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #7138b5;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tech { background: #4285e8; }
+.sports { background: #ed6595; }
+.art { background: #e5a52e; }
+
+aside {
+    background: #fff0a8;
+    color: #754c00;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+fieldset {
+    border: 1px solid #c7a7e8;
+    border-radius: 8px;
+}
+
+button {
+    background: #7138b5;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ed65a5;
+}
+
+:focus {
+    outline: 2px solid orange;
+}
+
+footer {
+    background: #39216b;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+@media(max-width:600px) {
+    .cards {
+        flex-direction: column;
+    }
+}

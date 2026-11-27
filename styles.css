@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+header, footer {
+    background: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: blue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+}
+
+section, article, aside {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, textarea {
+    padding: 8px;
+}
+
+button {
+    background: navy;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input:focus, select:focus,
+textarea:focus, button:focus, a:focus {
+    outline: 3px solid orange;
+}
+
+@media(max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}

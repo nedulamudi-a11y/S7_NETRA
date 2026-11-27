@@ -1,0 +1,108 @@
+nav a {
+    color: #174a70;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+section {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #174a70;
+    margin-top: 0;
+}
+
+.info-card {
+    background-color: #edf6fb;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-left: 4px solid #2785b8;
+    border-radius: 4px;
+}
+
+.info-card h3 {
+    margin: 0 0 6px;
+}
+
+.info-card p {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9aabb8;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: 3px solid #f2b84b;
+    outline-offset: 2px;
+}
+
+button {
+    background-color: #174a70;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #236b9b;
+}
+
+#message {
+    color: #176b35;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #174a70;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 94%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+}
+
+

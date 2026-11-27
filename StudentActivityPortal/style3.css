@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #fff0e6;
+    margin: 0;
+}
+
+/* Flexbox */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 20px;
+    container-type: inline-size;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+}
+
+/* Hover */
+.card:hover {
+    background-color: orange;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Container Query */
+@container (max-width: 400px) {
+    .card {
+        padding: 12px;
+    }
+}
+
