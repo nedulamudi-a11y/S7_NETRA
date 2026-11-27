@@ -1,4 +1,3 @@
-
 // Get the appointment form
 const form = document.getElementById("appointmentForm");
 
